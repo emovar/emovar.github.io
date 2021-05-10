@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleSlider.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+    <title>SportDrive</title>
+</head>
+
+<body background="assets/images/intro1.jpg">
+
+					<! шапка -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+					<! логотип -->
+            <div class="header__logo"><img src="assets/images/Logo.png" width="210"></div> 
+
+
+					<! навигация -->
+            <nav class="nav">
+  		 <a class="nav__link" href="index.html">Главная</a>
+                <a class="nav__link" href="list.html">Условия аренды</a>
+                <a class="nav__link active" href="form.html">Забронировать автомобиль</a>
+                <a class="nav__link" href="">Контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+                    <! форма бронирования -->
+<div class="intro">
+    <div class="container">
+
+<form action="/" method="post" align = center>
+
+            <h2 style="color:GreenYellow">Забронировать автомобиль:</h2>
+            <br><br>
+
+
+                <! текстовые поля -->
+
+        <h6 style="color:Yellow">Фамилия:</h6>
+        <input type="text" name="namePerson" maxlength="30" placeholder="Введите фамилию"><br>
+        <h6 style="color:Yellow">Имя:</h6>   
+        <input type="text" name="firstName" maxlength="25" placeholder="Введите имя"><br>
+        <h6 style="color:Yellow">Телефон:</h6>   
+        <input type="text" name="firstName" maxlength="12" placeholder="Введите номер телефона"><br>
+        <h6 style="color:Yellow">Эл.почта:</h6>   
+        <input type="text" name="firstName" maxlength="40" placeholder="Введите адрес эл.почты"><br><br>
+
+
+
+                                <! список авто -->
+
+                <h6 style="color:Yellow">Выберите автомобиль, который хотите арендовать:</h6>
+                <select name="select_car" size="4" multiple="multiple">  
+            <option selected>Chevrolet Corvette</option>
+            <option>Mercedes AMG GTS</option>
+            <option>Ferrari California</option>
+            <option>Chevrolet Camaro</option>
+            <option>Lamborghini Huracan</option>
+            <option>Ford Mustang</option>
+            <option>Mercedes C63 AMG Coupe</option>
+            <option>BMW M8</option>
+        </select><br>
+
+        <textarea name="text" cols="100" rows="10" placeholder="Укажите свои пожелания"></textarea><br>
+        <input type="submit" name="submit" value="Отправить">
+    </form>
+
+    </div>
+    </div>
+
+
+                                    <!футер -->
+<section class = "footer" align = center>
+    <div class="container">
+        <div class="row">
+
+
+            <div class= "col-md-6">
+                <br><br>
+                <h3 style="color:GreenYellow"> Агенство по прокату спортивных автомобилей SportDrive</h3>
+                <br><br>
+            </div>
+
+
+            <div class= "col-md-6">
+                <br><br>
+                 <h3 style="color:Yellow"> Мы находимся по адресу:</h3>
+                 <h4 style="color:GreenYellow">г.Ульяновск, ул.Первомайская, д.7</h4>
+                 <br><br>
+
+            </div>
+
+        </div>
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+    </body>
+</html>
